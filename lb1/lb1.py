@@ -1,8 +1,4 @@
 class Product:
-    prize = 0
-    name = ''
-    id = ''
-
     def __init__(self, id, name, prize):
         self.name = name
         self.id = id
@@ -13,12 +9,6 @@ class Product:
 
 
 class Customer:
-    id = 0
-    full_name = ''
-    username = ''
-    email = ''
-    discount = 0
-
     def __init__(self, id, username, full_name, email, discount=0):
         self.id = id
         self.username = username
