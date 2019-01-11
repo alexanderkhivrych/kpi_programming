@@ -9,4 +9,3 @@ try:
 
 except ZeroDivisionError as error:
     print("cant / on 0")
-2
